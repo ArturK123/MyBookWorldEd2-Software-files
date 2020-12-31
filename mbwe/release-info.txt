@@ -1,0 +1,13 @@
+2014-02-07: Changed mbwe-install.sh to support non-WD disks.
+
+2011-11-16: Changed mbwe-install.sh to address partitions bigger than 2TB (parted/GPT instead of sfdisk/MBR).
+
+2011-10-25: Added MAC definition (in mbwe-config.sh and mbwe-install.sh). Improved FW autoload (in mbwe-getfw.sh).
+
+2011-10-22: New FW 01.02.12 - changed FW URL (in mbwe-getfw.sh) to "http://download.wdc.com/nas/wdhxnc-01.02.12.img".
+
+2011-10-17: wdc.com FW URL (in mbwe-getfw.sh) has changed to "http://download.wdc.com/nas/wdhxnc-01.02.06.img"
+
+2011-07-19: Added (in mbwe-install.sh) "mdadm -metadata=0.9" for linux distribution compatibility reasons.
+
+2011-04-21: First version for firmware "wdhxnc-01.02.06_010411.img"
